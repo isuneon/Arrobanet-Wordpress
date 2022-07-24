@@ -1,0 +1,81 @@
+/* #Elements */
+blockquote {
+	font-style: $blockquote_font_style;
+	font-weight: $blockquote_font_weight;
+	font-size: @font_size($blockquote_font_size, multiple, ceil, 0.6)px;
+	line-height: $blockquote_line_height;
+	font-family: $blockquote_font_family;
+	letter-spacing: $blockquote_letter_spacing;
+	color: $blockquote_color;
+}
+
+@media (min-width: 992px) {
+	blockquote {
+		font-size: $blockquote_font_size{px};
+	}
+}
+
+blockquote cite {
+	color: $regular_text_color;
+}
+
+blockquote cite::before {
+	background: $regular_text_color;
+}
+
+blockquote::before {
+	color: $regular_accent_color_1;
+}
+
+code {
+	color: $invert_accent_color_1;
+	background: $regular_accent_color_1;
+}
+
+
+.entry-content > p > a {
+	font-family: $metadata_font_family;
+	font-style: $metadata_font_style;
+	font-weight: $metadata_font_weight;
+}
+
+.entry-content ul > li:before,
+.entry-content ol > li:before {
+	color:  $regular_accent_color_1;
+}
+
+/* tm-testi */
+.tm-testi__item-body footer {
+	color: $regular_text_color;
+}
+.tm-testi__item-body a {
+	color: $regular_link_color;
+}
+.tm-testi__item-body a:hover {
+	color: $regular_link_hover_color;
+}
+.tm-testi .swiper-pagination-bullet {
+	background-color: $regular_accent_color_1;
+}
+.tm-testi .swiper-pagination-bullet:hover {
+	background-color: $regular_accent_color_1;
+}
+.tm-testi .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: $regular_accent_color_1;
+	box-shadow: 0 0 0 6px @alpha($regular_accent_color_1, 21%);
+}
+
+.tm-testi--boxed blockquote {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+.tm-testi--speech-bubble .tm-testi__item-body {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+.tm-testi--speech-bubble .tm-testi__item-body:after{
+    border-color: $regular_accent_color_2 transparent transparent transparent;	
+}
+
+
+

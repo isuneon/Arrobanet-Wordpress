@@ -1,0 +1,145 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:11
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-actualization-circular-button-outline-with-an-arrow:before { content: "\f100"; }
+.flaticon-add-plus-sign-outline:before { content: "\f101"; }
+.flaticon-alarm-clock-outline:before { content: "\f102"; }
+.flaticon-arrow-pointing-upper-right-direction:before { content: "\f103"; }
+.flaticon-ball-outline:before { content: "\f104"; }
+.flaticon-band-aid-outline:before { content: "\f105"; }
+.flaticon-battery-outline-with-poles:before { content: "\f106"; }
+.flaticon-bell-outline:before { content: "\f107"; }
+.flaticon-bluetooth:before { content: "\f108"; }
+.flaticon-book-outline:before { content: "\f109"; }
+.flaticon-bottle-container-outline:before { content: "\f10a"; }
+.flaticon-button-of-four-tiles-squares-outlines:before { content: "\f10b"; }
+.flaticon-button-square-outline:before { content: "\f10c"; }
+.flaticon-cassette-outline:before { content: "\f10d"; }
+.flaticon-chat-speech-bubbles-outline-with-text-lines:before { content: "\f10e"; }
+.flaticon-checkmark-outline:before { content: "\f10f"; }
+.flaticon-chronometer-outline:before { content: "\f110"; }
+.flaticon-circular-graphic-of-business:before { content: "\f111"; }
+.flaticon-cloud-outline:before { content: "\f112"; }
+.flaticon-code-signs-in-a-window-outline:before { content: "\f113"; }
+.flaticon-coffee-hot-cup-outline:before { content: "\f114"; }
+.flaticon-compass-outline:before { content: "\f115"; }
+.flaticon-configuration-wheel-outline:before { content: "\f116"; }
+.flaticon-credit-card-outline:before { content: "\f117"; }
+.flaticon-crescent-moon-outline:before { content: "\f118"; }
+.flaticon-cross-outline:before { content: "\f119"; }
+.flaticon-crosshair:before { content: "\f11a"; }
+.flaticon-design-structure-rectangles-button-outline:before { content: "\f11b"; }
+.flaticon-diamond-outline:before { content: "\f11c"; }
+.flaticon-digital-computer-tool-square-part:before { content: "\f11d"; }
+.flaticon-disc-of-circles:before { content: "\f11e"; }
+.flaticon-dislike-gesture-outline:before { content: "\f11f"; }
+.flaticon-down-arrow-circular-outlined-button:before { content: "\f120"; }
+.flaticon-download-from-internet:before { content: "\f121"; }
+.flaticon-electrical-plug-outline-with-cord:before { content: "\f122"; }
+.flaticon-electrical-plugin-outline:before { content: "\f123"; }
+.flaticon-equalizer-console:before { content: "\f124"; }
+.flaticon-fast-forward-button-outline:before { content: "\f125"; }
+.flaticon-favorites-star-outline:before { content: "\f126"; }
+.flaticon-file-paper-sheet-outline:before { content: "\f127"; }
+.flaticon-flash-outlined-lightning-bolt:before { content: "\f128"; }
+.flaticon-folder-outline:before { content: "\f129"; }
+.flaticon-games-control-outline:before { content: "\f12a"; }
+.flaticon-ghost-outline:before { content: "\f12b"; }
+.flaticon-glass-of-water-outline:before { content: "\f12c"; }
+.flaticon-global:before { content: "\f12d"; }
+.flaticon-house-outline:before { content: "\f12e"; }
+.flaticon-ice-cream-stick-outline:before { content: "\f12f"; }
+.flaticon-image-square:before { content: "\f130"; }
+.flaticon-ink-drop-outline:before { content: "\f131"; }
+.flaticon-key-of-circular-outline:before { content: "\f132"; }
+.flaticon-keyword-outline:before { content: "\f133"; }
+.flaticon-lantern-outline:before { content: "\f134"; }
+.flaticon-left-arrow-angle-outline:before { content: "\f135"; }
+.flaticon-lifesaver-outline:before { content: "\f136"; }
+.flaticon-light-lamp-outline:before { content: "\f137"; }
+.flaticon-lightbulb-outline:before { content: "\f138"; }
+.flaticon-like-gesture-outline:before { content: "\f139"; }
+.flaticon-like-heart-social-outline:before { content: "\f13a"; }
+.flaticon-link:before { content: "\f13b"; }
+.flaticon-liquid-in-a-bottle-outline:before { content: "\f13c"; }
+.flaticon-list-with-bullets-outlined-button-of-interface:before { content: "\f13d"; }
+.flaticon-locked-padlock-outline:before { content: "\f13e"; }
+.flaticon-menu-button-of-three-lines-outline:before { content: "\f13f"; }
+.flaticon-microphone-voice-audio-tool:before { content: "\f140"; }
+.flaticon-mobile-phone-outline:before { content: "\f141"; }
+.flaticon-monitor-screen-outline:before { content: "\f142"; }
+.flaticon-monthly-calendar:before { content: "\f143"; }
+.flaticon-more-button-of-three-circles-outlines:before { content: "\f144"; }
+.flaticon-more-button-of-three-circles-outlines-in-vertical:before { content: "\f145"; }
+.flaticon-mouse-outlined-tool:before { content: "\f146"; }
+.flaticon-musical-note:before { content: "\f147"; }
+.flaticon-network:before { content: "\f148"; }
+.flaticon-new-email-closed-back-envelope-outline:before { content: "\f149"; }
+.flaticon-nine-buttons-of-circles-outlines:before { content: "\f14a"; }
+.flaticon-notebook-outline:before { content: "\f14b"; }
+.flaticon-pause-outline:before { content: "\f14c"; }
+.flaticon-pencil-with-stripes:before { content: "\f14d"; }
+.flaticon-pendrive-outline:before { content: "\f14e"; }
+.flaticon-photo-camera-outline:before { content: "\f14f"; }
+.flaticon-placeholder-outline:before { content: "\f150"; }
+.flaticon-play-arrow-triangle-outline-pointing-to-right:before { content: "\f151"; }
+.flaticon-portfolio-of-business-outlined-tool:before { content: "\f152"; }
+.flaticon-print-with-interface-button-of-printer-outline:before { content: "\f153"; }
+.flaticon-rectangle-of-interface-button-with-lines:before { content: "\f154"; }
+.flaticon-recycle-container-outline:before { content: "\f155"; }
+.flaticon-rewind-outlined-circular-button:before { content: "\f156"; }
+.flaticon-right-arrow-angle-outline:before { content: "\f157"; }
+.flaticon-save-with-disquette-button-outline:before { content: "\f158"; }
+.flaticon-searching-tool-outline:before { content: "\f159"; }
+.flaticon-share:before { content: "\f15a"; }
+.flaticon-shield:before { content: "\f15b"; }
+.flaticon-shuffle-circular-button-outline:before { content: "\f15c"; }
+.flaticon-speaker-outline:before { content: "\f15d"; }
+.flaticon-sportive-prize-badge-outline:before { content: "\f15e"; }
+.flaticon-sun-outline:before { content: "\f15f"; }
+.flaticon-tag-outline:before { content: "\f160"; }
+.flaticon-text-left-alignment-outlined-button:before { content: "\f161"; }
+.flaticon-thermometer-outline:before { content: "\f162"; }
+.flaticon-traffic-cone-outline:before { content: "\f163"; }
+.flaticon-tree-outline-of-leaf-shape:before { content: "\f164"; }
+.flaticon-trophy-cup-outline:before { content: "\f165"; }
+.flaticon-two-rectangles-outline:before { content: "\f166"; }
+.flaticon-two-switched-outline:before { content: "\f167"; }
+.flaticon-up-arrow-in-circular-button:before { content: "\f168"; }
+.flaticon-upload-to-internet-cloud-outlined-interface-sign:before { content: "\f169"; }
+.flaticon-upper-right-arrow-outline:before { content: "\f16a"; }
+.flaticon-user-outline:before { content: "\f16b"; }
+.flaticon-video-camera-outline:before { content: "\f16c"; }
+.flaticon-visible-eye-design-tool-outline:before { content: "\f16d"; }
+.flaticon-volume-three-bars-graphic-outline:before { content: "\f16e"; }
+.flaticon-wallet-outline:before { content: "\f16f"; }
+.flaticon-washing-machine-outline:before { content: "\f170"; }
+.flaticon-wifi-connection-sign:before { content: "\f171"; }

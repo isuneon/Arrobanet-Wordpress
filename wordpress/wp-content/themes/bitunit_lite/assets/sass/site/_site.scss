@@ -1,0 +1,83 @@
+body {
+	background-color: $color__background-screen;
+}
+
+.site {
+	overflow: hidden;
+
+	.wordwrap & {
+        @include hyphens(auto);
+    }
+
+	.site-main {
+		.page-header {
+			.taxonomy-description {
+				padding-top: 40px;
+			}
+		}
+	}
+
+	&-logo {
+		line-height: 1.1;
+		padding: 23px 0; 
+	}
+	&-description {
+		@include font-size(8/16);
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	&-content {
+		.single &,
+		.position-one-right-sidebar &,
+		.position-one-left-sidebar & {
+			margin-bottom: 5em;
+		}
+		.cta_wrap {
+			margin-bottom: -5em;
+		}
+	}
+}
+
+.single .site-main {
+	margin-top: 1em;
+	@include media-breakpoint-up(lg) {
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+}
+
+.site-main {
+	.search & {
+		margin-top: 1em;
+		@include media-breakpoint-up(lg) {
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+@import "../layout/layout";
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "primary/header";
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Post Formats
+--------------------------------------------------------------*/
+@import "primary/post-formats";
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "primary/footer";

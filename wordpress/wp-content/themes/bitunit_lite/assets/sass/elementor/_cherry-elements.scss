@@ -1,0 +1,30 @@
+/*cherry-posts*/
+
+.elementor-cherry-posts {
+	.post-thumbnail {
+		margin-bottom: 25px;
+	}
+	.post-meta {
+		margin-bottom: 12px;
+		@include font-size(13/16);
+		.post__date {
+			margin-right: 16px;
+			padding-right: 17px;
+			border-right: 1px solid $color__background-hr;
+		}
+	}
+	.entry-excerpt {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+.slick-initialized  {
+	.slick-list {
+		.slick-slide {
+		    display: block;
+		    outline: none;
+		}
+	}
+}
